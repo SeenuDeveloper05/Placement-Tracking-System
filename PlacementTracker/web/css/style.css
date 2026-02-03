@@ -1,0 +1,256 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 23-Dec-2025, 8:11:25 pm
+    Author     : seenu_05
+*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url("../images/background.jpg") no-repeat center center/cover;
+    height: 100vh;
+}
+
+.container {
+    width: 420px;
+    margin: 120px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,5);
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.btn-group a {
+    display: block;
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-group a:hover {
+    background: #0056b3;
+}
+
+
+/* STUDENT DASHBOARD BACKGROUND */
+.student-bg {
+    background: url("../images/student.jpg") no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* DASHBOARD CARD */
+.dashboard-container {
+    width: 450px;
+    max-width: 95%;
+    margin: 80px auto;
+    padding: 30px;
+    background: rgba(255,255,255,0.95);
+    border-radius: 12px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+}
+
+/* TEXT */
+.dashboard-container h2 {
+    margin-bottom: 10px;
+}
+
+.dashboard-container span {
+    color: #2c3e50;
+}
+
+.dept {
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+/* ACTION BUTTONS */
+.dashboard-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 12px;
+    background: #34495e;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #2c3e50;
+}
+
+.btn.secondary {
+    background: #16a085;
+}
+
+.btn.secondary:hover {
+    background: #138d75;
+}
+
+.btn.logout {
+    background: #c0392b;
+}
+
+.btn.logout:hover {
+    background: #a93226;
+}
+/* TABLE STYLE */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.data-table th, .data-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.data-table th {
+    background: #2c3e50;
+    color: white;
+}
+
+.data-table td {
+    background: #f9f9f9;
+}
+
+/* WIDER CARD FOR TABLE */
+.dashboard-container.wide {
+    width: 90%;
+    max-width: 1000px;
+}
+
+/* STATUS LABEL */
+.status.applied {
+    font-weight: bold;
+    color: green;
+}
+
+/* APPLY BUTTON INSIDE TABLE */
+.data-table form {
+    margin: 0;
+}
+
+/* FORM GROUP */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+/* SELECT BOX STYLE */
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* COMPANY BACKGROUND */
+.company-bg {
+    background: url("../images/company.jpg") no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ADMIN BACKGROUND */
+.admin-bg {
+    background: url("../images/admin.jpg") no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ /* ADMIN View Companies */
+.btn.small {
+    padding: 6px 12px;     /* size for button */
+    font-size: 13px;
+    border-radius: 6px;
+}
+
+.dashboard-container.admin-match {
+    width: 1100px;   /* 👈 ONLY admin eligible students */
+}
+
+/* Admin View Applications – wider box */
+.dashboard-container.admin-applications {
+    width: 1100px;
+    max-width: 96%;
+}
+
+/* Table styling */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.data-table th {
+    background: #2c3e50;
+    color: #fff;
+    padding: 10px;
+}
+
+.data-table td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Status dropdown */
+.data-table select {
+    padding: 6px;
+    border-radius: 4px;
+}
+
+/* Update button */
+.data-table input[type="submit"] {
+    padding: 6px 10px;
+    margin-left: 6px;
+    border-radius: 4px;
+    background: #16a085;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
